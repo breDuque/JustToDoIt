@@ -32,13 +32,10 @@
             </Grid.RowDefinitions>
 
             <Border CornerRadius="20,0,0,20" Grid.Column="0" Grid.RowSpan="2" Background="#353535"/>
-            
-            <TextBlock Text="Just To-Do It"
-                       VerticalAlignment="Center"
-                       HorizontalAlignment="Center"
-                       Foreground="White"
-                       FontSize="27"
-                       FontFamily="/Fonts/#Poppins"/>
+
+            <Image x:Name="Logo"
+                   Margin="10"
+                   Source="pack://application:,,,/Images/JustToDoIt.png"/>
 
             <StackPanel Grid.Row="1">
                 <RadioButton Content="Home" 
