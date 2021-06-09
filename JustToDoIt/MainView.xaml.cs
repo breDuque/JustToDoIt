@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace JustToDoIt
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainView : Window
     {
         public MainView()
